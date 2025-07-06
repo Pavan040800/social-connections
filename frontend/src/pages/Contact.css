@@ -1,0 +1,160 @@
+
+.contact-page {
+  background-color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.contact-hero {
+  background: linear-gradient(to right, #3b82f6, #8b5cf6);
+  color: white;
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.contact-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-hero p {
+  font-size: 1.25rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+.contact-main {
+  padding: 4rem 1rem;
+}
+
+.contact-box {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .contact-box {
+    flex-direction: row;
+  }
+}
+
+.contact-info {
+  background: #2563eb;
+  color: white;
+  padding: 2rem;
+  flex: 1;
+}
+
+.contact-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-info h3 {
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.contact-form {
+  padding: 2rem;
+  flex: 1;
+}
+
+.contact-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #374151;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.form-success {
+  text-align: center;
+  padding: 2rem;
+}
+
+.icon-success {
+  width: 64px;
+  height: 64px;
+  background-color: #d1fae5;
+  color: #10b981;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq-section {
+  background-color: #f9fafb;
+  padding: 4rem 1rem;
+}
+
+.faq-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #1f2937;
+}
+
+.faq-list {
+  max-width: 800px;
+  margin: auto;
+}
+
+.faq-item {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.faq-item h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1f2937;
+}
+
+.faq-item p {
+  color: #4b5563;
+}

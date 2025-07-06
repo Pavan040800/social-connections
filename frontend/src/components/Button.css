@@ -1,0 +1,70 @@
+.btn {
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Size variants */
+.btn-sm {
+  padding: 6px 12px;
+  font-size: 0.875rem;
+}
+
+.btn-base {
+  padding: 8px 16px;
+  font-size: 1rem;
+}
+
+.btn-lg {
+  padding: 12px 24px;
+  font-size: 1.125rem;
+}
+
+/* Width */
+.btn-full {
+  width: 100%;
+}
+
+/* Style variants */
+.btn-primary {
+  background-color: #2563eb;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-secondary {
+  background-color: #4b5563;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #374151;
+}
+
+.btn-white {
+  background-color: white;
+  color: #2563eb;
+}
+
+.btn-white:hover {
+  background-color: #eff6ff;
+}
+
+.btn-outline-white {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.btn-outline-white:hover {
+  background-color: white;
+  color: #2563eb;
+}
