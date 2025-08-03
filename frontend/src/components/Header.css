@@ -107,3 +107,92 @@
   width: 36px;
   margin-right: 0.5rem;
 }
+
+.nav-link-button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 1.5rem;
+  font: inherit;
+  transition: color 0.3s;
+}
+
+.nav-link-button:hover {
+  color: #cbd5e1;
+}
+
+.nav-desktop {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem; /* adds spacing between links */
+}
+
+.nav-desktop a,
+.nav-link-button {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.nav-desktop a:hover,
+.nav-link-button:hover {
+  color: #cbd5e1;
+}
+
+
+.notification-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.bell-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: red;
+  color: white;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 9999px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 2.5rem;
+  right: 0;
+  background: rgb(100, 196, 209);
+  border: 1px solid #ccc;
+  width: 250px;
+  padding: 0.75rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  z-index: 999;
+}
+
+.dropdown-item {
+  margin-bottom: 0.75rem;
+}
+
+.dropdown-item button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}

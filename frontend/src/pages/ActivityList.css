@@ -1,0 +1,82 @@
+.activity-list {
+  max-width: 700px;
+  margin: 2rem auto;
+}
+
+.activity-card {
+  background: #f9f9f9;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.activity-card h3 {
+  margin-top: 0;
+}
+
+.activity-card button {
+  margin-right: 0.5rem;
+}
+
+.edit-form label {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.edit-form textarea,
+.edit-form input {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.edit-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.save-btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background-color: #ccc;
+  color: #222;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.action-buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.action-buttons button {
+  padding: 0.4rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #2563eb;
+  transition: background-color 0.3s;
+}
+
+.action-buttons button:hover {
+  background-color: #d1d5db;
+}

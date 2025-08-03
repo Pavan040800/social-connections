@@ -1,0 +1,90 @@
+.public-activities {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.activity-card {
+  background: #fdfdfd;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.activity-card h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.posted-by {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: #555;
+}
+
+.activity-card button {
+  margin-top: 0.5rem;
+  padding: 0.4rem 1rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.activity-card button:hover {
+  background-color: #1e40af;
+}
+
+.status-message {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.connect-btn {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.connect-btn:hover {
+  background-color: #1e40af;
+}
+
+.status-message {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: green;
+}
+
+
+.activity-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem 1.5rem;
+  margin: 1rem auto;
+  border-radius: 10px;
+  max-width: 700px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.disconnect-btn {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.disconnect-btn:hover {
+  background-color: #dc2626;
+}

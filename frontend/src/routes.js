@@ -5,6 +5,10 @@ import Contact from './pages/Contact';
 import Login from './pages/Login';
 import Registration from './pages/Registration';
 import UserDashboard from './pages/UserDashboard';
+import ActivityForm from './pages/ActivityForm';
+import ActivityList from './pages/ActivityList';
+import AllActivities from './pages/AllActivities';
+import MyConnections from './pages/MyConnections';
 
 const routes = (
   <Routes>
@@ -14,6 +18,11 @@ const routes = (
     <Route path="/login" element={<Login />} />
     <Route path="/register" element={<Registration />} />
     <Route path="/user/dashboard" element={<UserDashboard />} />
+    <Route path="/activity_form" element={<ActivityForm />} />
+    <Route path="/activities" element={<ActivityList />} />
+    <Route path="/all_activities" element={<AllActivities />} />
+    <Route path="/my-connections" element={<MyConnections />} />
+
   </Routes>
 );
 

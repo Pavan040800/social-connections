@@ -1,11 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Button from '../components/Button';
+import { AuthContext } from '../context/AuthContext';
 import './auth.css';
 
 const Login = () => {
   const [formData, setFormData] = useState({ email: '', password: '' });
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+  const { login } = useContext(AuthContext);
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -30,17 +34,17 @@ const Login = () => {
         throw new Error(data.message || 'Login failed');
       }
 
-      // Save token and role to localStorage
-      localStorage.setItem('token', data.token);
+      // Save token in localStorage and context
+      login(data.token); // context-managed login
       localStorage.setItem('role', data.role);
 
       // Redirect based on role
       if (data.role === 'admin') {
-        window.location.href = '/admin/dashboard';
+        navigate('/admin/dashboard');
       } else if (data.role === 'user') {
-        window.location.href = '/user/dashboard';
+        navigate('/user/dashboard');
       } else {
-        window.location.href = '/'; // fallback
+        navigate('/');
       }
 
     } catch (err) {

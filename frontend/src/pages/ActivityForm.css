@@ -1,0 +1,57 @@
+.activity-form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.activity-form textarea,
+.activity-form input {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+  transition: border-color 0.3s;
+}
+
+.activity-form textarea:focus,
+.activity-form input:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+.activity-form button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.activity-form button:hover {
+  background-color: #1e40af;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
